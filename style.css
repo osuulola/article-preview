@@ -38,3 +38,12 @@ h5, .img p {
     align-items: start;
     justify-content: space-around;
 }
+#share {
+    background: hsl(210, 46%, 95%);
+    
+}
+.visible {
+    visibility: hidden;
+    background: hsl(217, 19%, 35%);
+    color: white;
+}
