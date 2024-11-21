@@ -1,0 +1,40 @@
+body {
+    background: hsl(210, 46%, 95%);
+    padding:100px;
+    font-family: 'Manrope';
+}
+.container {
+    width:70%;
+    margin: 0 auto;
+    display: flex;
+    color: hsl(217, 19%, 35%);
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.img {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    padding: 20px;
+}
+.img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+img{
+    width:40%;
+}
+h5, .img p {
+    margin: 0;
+}
+.img p {
+    font-size: small;
+}
+.flex{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
