@@ -39,11 +39,15 @@ h5, .img p {
     justify-content: space-around;
 }
 #share {
-    background: hsl(210, 46%, 95%);
-    
+    background: hsl(210, 46%, 95%);   
 }
 .visible {
-    visibility: hidden;
+    display: none;
     background: hsl(217, 19%, 35%);
     color: white;
+    height: 30px;
+    width: 200px;
+}
+.share {
+    width: 10px;
 }

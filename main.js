@@ -4,10 +4,10 @@ let show = document.querySelector('.visible');
 share.addEventListener('click', e =>{
    
     
-    if (show.style.visibility == 'hidden'){
-        show.style.visibility = 'visible';
+    if (show.style.display == 'none'){
+        show.style.display = 'block';
     }
-    else show.style.visibility = 'hidden'
+    else show.style.display = 'none';
     
    
 })
